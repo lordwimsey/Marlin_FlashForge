@@ -130,7 +130,7 @@
 
 // Choose the name from boards.h that matches your setup
 #ifndef MOTHERBOARD
-  #define MOTHERBOARD BOARD_MIGHTYBOARD_REVB //Peter: war BOARD_RAMPS_14_EFB, danach BOARD_MIGHTYBOARD_REVE, ...-REVB hab ich neu angelegt in pins.h und die Datei selbst
+  #define MOTHERBOARD BOARD_MIGHTYBOARD_REVE //Peter: war BOARD_RAMPS_14_EFB, danach BOARD_MIGHTYBOARD_REVE, ...-REVB hab ich neu angelegt in pins.h und die Datei selbst
 #endif
 
 // Name displayed in the LCD "Ready" message and Info menu

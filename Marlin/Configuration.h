@@ -130,7 +130,7 @@
 
 // Choose the name from boards.h that matches your setup
 #ifndef MOTHERBOARD
-  #define MOTHERBOARD BOARD_MIGHTYBOARD_REVE //Peter: war BOARD_RAMPS_14_EFB, danach BOARD_MIGHTYBOARD_REVE, ...-REVB hab ich neu angelegt in pins.h und die Datei selbst
+  #define MOTHERBOARD BOARD_MIGHTYBOARD_REVB //Peter: war BOARD_RAMPS_14_EFB, danach BOARD_MIGHTYBOARD_REVE, ...-REVB hab ich neu angelegt in pins.h und die Datei selbst
 #endif
 
 // Name displayed in the LCD "Ready" message and Info menu
@@ -411,7 +411,7 @@
 #define TEMP_SENSOR_3 0
 #define TEMP_SENSOR_4 0
 #define TEMP_SENSOR_5 0
-#define TEMP_SENSOR_BED -1 //Peter: war 0 //Peter: war danach 1
+#define TEMP_SENSOR_BED 1 //Peter: war 0
 #define TEMP_SENSOR_CHAMBER 0
 
 // Dummy thermistor constant temperature readings, for use with 998 and 999
@@ -1627,7 +1627,7 @@
  * you must uncomment the following option or it won't work.
  *
  */
-#define SDSUPPORT  //Peter: war auskommentiert
+//#define SDSUPPORT  //Peter: war auskommentiert Peter: wieder raus
 
 /**
  * SD CARD: SPI SPEED
@@ -1644,7 +1644,7 @@
  *
  * Use CRC checks and retries on the SD communication.
  */
-#define SD_CHECK_AND_RETRY //Peter: war auskommentiert
+//#define SD_CHECK_AND_RETRY //Peter: war auskommentiert Peter: wieder raus
 
 /**
  * LCD Menu Items
@@ -1860,7 +1860,7 @@
 // https://github.com/mikeshub/SailfishLCD
 // Uses the code directly from Sailfish
 //
-//#define FF_INTERFACEBOARD
+#define FF_INTERFACEBOARD //Peter: war auskommentiert
 
 
 //Peter: hinzu ab hier
